@@ -390,15 +390,55 @@
         import { getAuth, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
         import { getDatabase, ref, set, get, push, update, remove, onValue } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js";
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyC2RaTcpv7xJpghU79C_rDKZGmwPcTpZ6E",
-            authDomain: "mystore-22c9c.firebaseapp.com",
-            databaseURL: "https://mystore-22c9c-default-rtdb.firebaseio.com",
-            projectId: "mystore-22c9c",
-            storageBucket: "mystore-22c9c.firebasestorage.app",
-            messagingSenderId: "229645807920",
-            appId: "1:229645807920:web:10925072b4d224678f18f5"
-        };
+
+
+
+
+// Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDDKm55D6inIREjug3VIUXhmbnPR5Di39A",
+  authDomain: "hp33-afc95.firebaseapp.com",
+  databaseURL: "https://hp33-afc95-default-rtdb.firebaseio.com",
+  projectId: "hp33-afc95",
+  storageBucket: "hp33-afc95.firebasestorage.app",
+  messagingSenderId: "788657283787",
+  appId: "1:788657283787:web:ab4e7be625d80d84fe714e"
+};
+
+// Initialize Firebase
+//const app = initializeApp(firebaseConfig);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+       // const firebaseConfig = {
+          //  apiKey: "AIzaSyC2RaTcpv7xJpghU79C_rDKZGmwPcTpZ6E",
+          //  authDomain: "mystore-22c9c.firebaseapp.com",
+           // databaseURL: "https://mystore-22c9c-default-rtdb.firebaseio.com",
+          //  projectId: "mystore-22c9c",
+          //  storageBucket: "mystore-22c9c.firebasestorage.app",
+          //  messagingSenderId: "229645807920",
+          //  appId: "1:229645807920:web:10925072b4d224678f18f5"
+       // };
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
